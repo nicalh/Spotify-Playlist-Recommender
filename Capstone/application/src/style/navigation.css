@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    background-color: rgb(97, 161, 161);
+    min-height: 50px;
+    box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-family: Ballpark;
+    top: 1%;
+    left: 0.5%;
+    position: absolute;
+}
+
+.navbar-brand, .nav-link {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+ul {
+    width: 90%;
+    text-align: right;
+    position: absolute;
+    top: 1px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+#pfp {
+    position: absolute;
+    left: 95%;
+    top: 0.5%;
+    max-width: 6%;
+    max-height: 6%;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+

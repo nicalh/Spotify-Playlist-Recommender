@@ -1,0 +1,109 @@
+#LikesTitle {
+    position: absolute;
+    left: 5%;
+    top: 22%;
+    height: 5%;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(234, 237, 235);
+    box-shadow: 10px 10px rgb(97, 161, 161);
+}
+
+#LikesDiv {
+    border-radius: 25px;
+    border: 5px solid rgb(97, 161, 161);
+    background-color: rgb(234, 237, 235);
+    width: 550px;
+    height: 350px;
+    position: absolute;
+    top: 31%;
+    left: 5%;
+}
+
+#currentLikes {
+    overflow-y: scroll;
+    display: block;
+    height: 100%;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+#currentLikes::-webkit-scrollbar {
+    display: none;
+}
+
+
+#genreIn {
+    border: solid 2px black;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+}
+
+#AddGenre {
+    height: 30px;
+}
+
+#Genres {
+    Width: 100%;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+
+#GenresTitle {
+    position: absolute;
+    left: 58%;
+    top: 12%;
+    height: 5%;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgb(234, 237, 235);
+    box-shadow: 10px 10px rgb(97, 161, 161);
+}
+
+#GenresDiv {
+    border-radius: 25px;
+    border: 5px solid rgb(97, 161, 161);
+    background-color: rgb(234, 237, 235);
+    width: 550px;
+    height: 200px;
+    position: absolute;
+    top: 21%;
+    left: 58%;
+}
+
+
+#FindDiv {
+    border-radius: 25px;
+    background-color: rgb(234, 237, 235);
+    border: 5px solid rgb(97, 161, 161);
+    width: 550px;
+    height: 230px;
+    position: absolute;
+    top: 63%;
+    left: 58%;
+}
+
+#findArtists {
+    overflow-y: scroll;
+    display: block;
+    height: 100%;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+#findArtists::-webkit-scrollbar {
+    display: none;
+}

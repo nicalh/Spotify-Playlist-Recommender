@@ -1,0 +1,65 @@
+#MyEventOutline {
+    border-radius: 25px;
+    border: 5px solid rgb(97, 161, 161);
+    background-color: rgb(234, 237, 235);
+    width: 1000px;
+    height: 500px;
+    position: absolute;
+    top: 17%;
+    left: 17%;
+    text-align: center;
+}
+
+#MyNewEvent {
+    position: absolute;
+    top: 75%;
+    left: 88%;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#MyNewEvent:hover {
+    box-shadow: 0px 0px 20px 10px rgb(30, 215, 96);
+    transition: box-shadow 1s ease;
+}
+
+#AddNewEvent {
+    position: absolute;
+    top: 72%;
+    left: 77%;
+}
+
+.symbols {
+    width: 20%;
+}
+
+#Pencil {
+    max-width: 27%;
+    max-height: 27%;
+    height: auto;
+    width: auto;
+  }
+
+#Trash {
+    max-width: 20%;
+    max-height: 20%;
+    height: auto;
+    width: auto;
+  }
+
+.symbolsHover:hover {
+    box-shadow: 0px 0px 20px 10px white;
+    transition: box-shadow 1s ease;
+}
+
+#addButton {
+    position: absolute;
+    left: 87%;
+    top: 80%;
+    height: 10%;
+    font-size: 20px;
+    box-shadow: 10px 10px rgb(97, 161, 161);
+}

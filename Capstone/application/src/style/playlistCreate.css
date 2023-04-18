@@ -1,0 +1,192 @@
+#pInName {
+    position: relative;
+    top: 12%;
+    left: 4%;
+    height: 6%;
+    font-size: large;
+    border: 2px solid black;
+    position: absolute;
+    top: 12%;
+    left: 4%;
+    box-shadow: 10px 10px rgb(97, 161, 161);
+}
+
+#searchDiv {
+    border-radius: 25px;
+    background-color: rgb(234, 237, 235);
+    border: 5px solid rgb(97, 161, 161);
+    width: 360px;
+    height: 45px;
+    position: absolute;
+    top: 53.5%;
+    left: 69.5%;
+    display: flex;
+    cursor: pointer;
+}
+
+#searchIn {
+    margin-top: 1%;
+    margin-left: 4%;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#searchButton {
+    border-radius: 25px;
+    background-color: rgb(97, 161, 161);
+    display: table-cell;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 10px;
+    color: white;
+}
+
+#ViewPlaylist {
+    border-radius: 25px;
+    background-color: rgb(234, 237, 235);
+    border: 5px solid rgb(97, 161, 161);
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+
+#newPlayName {
+    position: absolute;
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+    background-color: rgb(234, 237, 235);
+    box-shadow: 10px 10px rgb(97, 161, 161);
+    left: 5%;
+    top: 12%;
+}
+
+#RecPlaylist {
+    border-radius: 25px;
+    background-color: rgb(234, 237, 235);
+    border: 5px solid rgb(97, 161, 161);
+    width: 600px;
+    height: 230px;
+    position: absolute;
+    top: 18%;
+    left: 54%;
+}
+
+#RecTitle {
+    position: absolute;
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(234, 237, 235);
+    box-shadow: 10px 10px rgb(97, 161, 161);
+    left: 55%;
+    top: 10%;
+}
+
+#otherSongs {
+    border-radius: 25px;
+    background-color: rgb(234, 237, 235);
+    border: 5px solid rgb(97, 161, 161);
+    width: 600px;
+    height: 230px;
+    position: absolute;
+    top: 63%;
+    left: 54%;
+}
+
+#FindTitle {
+    position: absolute;
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+    background-color: rgb(234, 237, 235);
+    box-shadow: 10px 10px rgb(97, 161, 161);
+    left: 55%;
+    top: 54%;
+}
+
+#doneButton {
+    position: absolute;
+    left: 5%;
+    top: 85%;
+    height: 10%;
+    font-size: 20px;
+    box-shadow: 10px 10px rgb(97, 161, 161);
+}
+
+#listeners {
+    position: absolute;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+#findSongs {
+    overflow-y: scroll;
+    display:block;
+    height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#findSongs::-webkit-scrollbar {
+    display: none;
+}
+
+#RecPlaylist {
+    overflow-y: scroll;
+    display:block;
+    height: 32%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#RecPlaylist::-webkit-scrollbar {
+    display: none;
+}
+
+#currentPlay {
+    overflow-y: scroll;
+    display:block;
+    height: 100%;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#currentPlay::-webkit-scrollbar {
+    display: none;
+}
+
+#pWarning {
+    color: red;
+    position: absolute;
+    left: 4%;
+    top: 6%;
+    display: none;
+}
+
+td {
+    vertical-align: top;
+}
+
+#currentPlay tr:nth-child(odd) {
+    background-color: rgb(190, 192, 191);
+}
+
+#RecPlaylist tr:nth-child(odd) {
+    background-color: rgb(190, 192, 191);
+}
+
+#findSongs tr:nth-child(odd) {
+    background-color: rgb(190, 192, 191);
+}
+
+

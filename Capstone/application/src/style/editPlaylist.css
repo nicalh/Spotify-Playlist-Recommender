@@ -1,0 +1,56 @@
+#PlaylistName {
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    height: 5%;
+    font-size: large;
+    border: 2px solid black;
+}
+
+#CurrentPlaylist {
+    border-radius: 25px;
+    border: 5px solid rgb(97, 161, 161);
+    background-color: rgb(234, 237, 235);
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    top: 27%;
+    left: 4%;
+}
+
+#Songs {
+    border-radius: 25px;
+    border: 5px solid rgb(97, 161, 161);
+    background-color: rgb(234, 237, 235);
+    width: 550px;
+    height: 250px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+}
+
+#searchbar {
+    width: 300px; 
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 4%;
+    font-size: large;
+}
+
+#ChooseRec {
+    position: absolute;
+    left: 75%;
+    top: 20%;
+    width: 10%;
+}
+
+#createPlaylist {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    width: 10%;
+    height: 10%;
+    font-size: xx-large;
+}
+

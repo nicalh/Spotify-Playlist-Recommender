@@ -1,0 +1,107 @@
+#titlePlaylist {
+    position: relative;
+    margin-top: 100px;
+    width: 40%;
+    left: 25%;
+    top: 16%;
+    max-height: 1%;
+    background-color: rgb(234, 237, 235);
+    box-shadow: 10px 10px rgb(97, 161, 161);
+}
+
+#playlistWrapper {
+    border-radius: 25px;
+    border: solid rgb(97, 161, 161) 5px;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin-top: 7%;
+    margin-left: 13%;
+    background-color: rgb(234, 237, 235);
+    text-align: center;
+}
+
+#Playlists {
+    width: 100%;
+    text-align: center;
+    padding: 0.8%;
+    margin: 0 auto;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    
+}
+
+th {
+    color: rgb(97, 161, 161);
+}
+
+#playlistDelete {
+    border-radius: 25px;;
+    border: solid rgb(97, 161, 161) 5px;
+    background-color: rgb(234, 237, 235);
+    width: 15%;
+    height: 10%;
+    padding-top: 2%;
+    color: rgb(97, 161, 161);
+    left: 6.5%;
+    top: 80%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+
+#playlistDelete:hover {
+    cursor: pointer;
+    background-color: rgb(97, 161, 161);
+    color: white;
+    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+}
+
+#editPlaylistButton {
+    border-radius: 25px;;
+    border: solid rgb(97, 161, 161) 5px;
+    background-color: rgb(234, 237, 235);
+    width: 30%;
+    height: 21%;
+    color: rgb(97, 161, 161);
+    left: 33%;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 24%;
+    top: 80%;
+    width: 15%;
+    height: 10%;
+    padding-top: 2%;
+}
+
+#editPlaylistButton:hover {
+    cursor: pointer;
+    background-color: rgb(97, 161, 161);
+    color: white;
+    transition: background-color 1s ease;
+    transition: color 0.5s ease;
+}
+
+#PlayOutline {
+    border-radius: 25px;
+    border: solid rgb(97, 161, 161) 5px;
+    width: 550px;
+    min-height: 450px;
+    position: absolute;
+    top: 23%;
+    left: 55%;
+    background-color: rgb(234, 237, 235);
+    text-align: center;
+}
+
+#playWarn {
+    color: red;
+    position: absolute;
+    left: 18%;
+    top: 32%;
+    display: none;
+}
