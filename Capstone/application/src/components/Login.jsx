@@ -15,7 +15,7 @@ localStorage.clear();
 
 const Login = () => {
   //Spotify Stuff
-  const CLIENT_ID = "f7382aa71e704c0aa0ee0bc03a63ae8b"
+  const CLIENT_ID = ""
   const REDIRECT_URI = "http://localhost:3001/"
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
   const RESPONSE_TYPE = "token"
